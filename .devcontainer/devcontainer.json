@@ -2,7 +2,8 @@
   "name": "Basic Python",
   "build": { "dockerfile": "Dockerfile" },
   "remoteUser": "vscode",
-  "forwardPorts": [8000], 
+  "forwardPorts": [8000],
+  "postStartCommand": "pip install flask",
 
   "customizations": {
     "vscode": {
